@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lovEspresso</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a website to introduce the best coffee shop in London">
+        <meta name="keywords" content="London Coffees, London Coffee Shop, Coffee, Espresso">
+        <meta name="author" content="Ipek Bilge Tuncer">
+        <meta name="wievport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+
+    <body>
+        <header id="main-header">
+            <h1>LovEspressO</h1>
+            <h3>LOVE</h3>
+            <h3>ESPRESSO</h3>
+        </header>
+
+        <header>
+            <h3>Best Coffee Ever!</h3>
+            <h3>Welcome</h3>
+        </header>
+
+        <main>
+<img width="100%" src="barista.jpg" />
+            <section>
+             <h2>About Us</h2>
+             <p>Our coffee beans comes from Colombia.</p>
+            </section>
+
+            <section>
+                <video width="540" height="320" controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Your browser does not support HTML5.
+                </video>
+            </section>
+
+            <section>
+                <audio width="600" controls autoplay loop>
+                    <source src="audio.mp3" type="audio/mp3">
+                </audio>
+            </section>
+
+            <section id="News">
+                <h2>News</h2>
+                <article>
+                    <img width="50%" src="C:\Users\İPEK\Desktop\İPEK\Hello_World\coffee-shop.jpg" />
+                    <h4>The Best Coffee Shop In The NYC has opened!</h4>
+                    <p>The famous Turkish architect Ipek B.T. Aksu attended the opening ceremony 
+                        with her husband who is also famous QA engineer Mustafa Aksu... <a href="#">Read more...</a> </p> 
+                </article>
+
+                <article>
+                    <img width="50%" src="./discount-coffee.jpg" />
+                    <h4>New year sales!</h4>
+                    <p>30% sales all coffee until 31 December... <a href="#">Read more...</a> </p> 
+                </article>
+                
+                <article>
+                    <img width="50%" src="buy-1-get-1.jpg" />
+                    <h4>Buy 1, get 1 for free!</h4>
+                    <p>One of every two coffees you buy is a gift from us. <a href="#">Read more...</a>
+                        <h6>P.s. The offer is valid until 30 November 2021... </h6>  </p> 
+                </article>
+
+            </section>
+
+            <section>
+                <a href="index.html"> <h2>Coffees</h2> </a>
+                
+   
+            </section>
+<img width="100%" src="coffee-types.jpg" />
+
+            <section id="contact form" action="place-order.php">
+                <h2>Place Order</h2>
+                <form method="get">
+                    <h4>Delivery</h4>
+                    <input name="deliverymethod" type="radio" value="delivery" /> Delivery
+                    <br />
+                    <input name="deliverymethod" type="radio" value="pickup" /> Pickup
+                    <br />
+                    <h4>Address</h4> 
+                    <input name="Address 1" placeholder="Address Line 1" class="lg-input"/> <br />
+                    <input name="Address 2" placeholder="Address Line 2" class="lg-input"/> <br />
+
+                    <input name="City" placeholder="City" class="sm-input" />
+                    <input name="State" placeholder="State" class="sm-input" /> <br />
+                    <input name="Zip Code" placeholder="Zip Code" class="sm-input" />
+                    <br />
+
+                    <br />
+                    <h4>Coffees</h4>
+                    <input name:"coffee" type="checkbox" value="espresso" /> Espresso &nbsp; &nbsp; &nbsp; <input name="shot" type="radio" value="single" /> Single &nbsp; &nbsp; <input name="shot" type="radio" value="double" /> Double
+                    <br />
+                    <input name:"coffee" type="checkbox" value="espresso machiato"/> Espresso machiato
+                    <br />
+                    <input name="coffee" type="checkbox" value="latte"/> Latte
+                    <br />
+                    <input name="coffee" type="checkbox" value="cortado"/> Cortado
+                    <br />
+                    <input name="coffee" type="checkbox" value="cappuccino"/> Cappuccino
+                    <br />
+                    
+                    <h4>Size</h4>
+                        <select name:"Size">
+                            <option value="tall">Tall - 15₺</option>
+                            <option value="grande">Grande - 18₺</option>
+                            <option value="venti">Venti - 20₺</option>
+
+                        </select>
+                    <br /> <br />
+                    <button type="submit">Place Order</button>
+                    
+
+                </form>
+
+            </section>   
+
+            <footer>
+                <center>&copy;2020<br/>
+                <a href="#">Terms of Service</a></center>
+            </footer>
+
+        </main>
+    </body>
+</html>

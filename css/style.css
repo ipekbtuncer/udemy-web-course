@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+ body > main > section {
+    width: 1000px;
+    margin: auto;
+ }
+
+ body h1{
+    font-family: "Abril Fatface", cursive;
+    font-weight: 300;
+    text-align: center;
+    margin: 50px 50px;
+ }
+
+body h3{
+    font-family:"Bungee", cursive ;
+    font-weight: 300;
+    text-align: center;  
+}
+
+#main-header {
+    border: 1px solid beige;
+    border-bottom-left-radius:45px;
+    border-top-right-radius:45px;  
+}
+
+#main-header > h3 {
+    margin-left: 300px;
+    margin-right: 50px;   
+}
+
+article {
+    max-width: 33%;
+    display: inline-block;
+}
+
+article img {
+    width: 100%;
+    height: 100px;
+}
+
+body {
+    background: #442e10;
+    color:beige;
+}
+
+body > header > h3 {
+    background: beige;
+    color: #442e10;
+}
+
+h1 {
+    float: left;
+}
+
+
