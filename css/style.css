@@ -155,10 +155,7 @@ article {
     transition: box-shadow .5s, background .5s, color .5s ;
 }
 
-article img {
-    width: 100%;
-    height: 100px;
-}
+
 
 .article-image{
     width: 100%;
