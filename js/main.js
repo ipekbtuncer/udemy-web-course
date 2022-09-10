@@ -1,17 +1,32 @@
-var btn = document.getElementById("coffees-button")
+var send = document.getElementById("send-button")
 
-function buttonClicked() {
-    console.log("Button clicked")
-    btn.removeEventListener("click", buttonClicked)
-    document.getElementById("text").innerHTML = "Espresso Love"
-    console.log (document.getElementById("text"))
+function msgSend (){
+    console.log("The message has been sent.")
+    document.getElementById("sent-message").innerHTML = "Your message has been sent."
 }
 
+send.addEventListener("click", msgSend)
 
 
 
 
-btn.addEventListener("click", buttonClicked)
+
+var srch = document.getElementById("search-button")
+
+function searchButtonClicked() {
+    console.log("Searched")
+    var customText = document.getElementsByClassName("search-input")
+    var results = document.getElementById("text-2")
+    console.log(customText)
+    results.innerHTML = customText [0].value
+
+}
+
+srch.addEventListener("click", searchButtonClicked)
+
+
+
+
 
 var welcome_message = "Discount!"
 
